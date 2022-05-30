@@ -14,6 +14,10 @@ body {
     --heder-color: #212121;
 }
 
+button {
+    cursor: pointer;
+}
+
 /*-----------верхняя линяя-------------*/
 .heder-logo {
     font-family: 'Raleway';
