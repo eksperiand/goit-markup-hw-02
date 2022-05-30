@@ -60,7 +60,7 @@ button {
     font-size: 14px;
     line-height: 1.33;
     letter-spacing: 0.02em;
-    color: var(--heder-color);
+    color: #757575;
 
 }
 
@@ -224,9 +224,6 @@ button {
 }
 
 /*-----------портфолио кнопки------*/
-.line {
-    #ECECEC;
-}
 
 .link-example-btn {
     font-weight: 500;
@@ -238,6 +235,13 @@ button {
 }
 
 .link-example-btn:hover {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
     background: #2196F3;
 }
 
@@ -246,7 +250,7 @@ button {
 }
 
 .examples-list {
-    background: #EEEEEE;
+    background: #FFF;
 }
 
 .visually {
