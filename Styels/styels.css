@@ -1,0 +1,268 @@
+ul {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: "roboto", roboto-serif;
+}
+
+:root {
+    --heder-color: #212121;
+}
+
+/*-----------верхняя линяя-------------*/
+.heder-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.studio {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.heder-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    color: var(--heder-color);
+}
+
+.heder-link:hover {
+    color: #2196F3;
+}
+
+.heder-link:focus {
+    color: #2196F3;
+}
+
+
+.heder-contacs-tel,
+.heder-contacs-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    color: var(--heder-color);
+
+}
+
+.heder-contacs-tel:hover,
+.heder-contacs-mail:hover {
+    color: #2196F3;
+}
+
+.heder-contacs-tel:focus,
+.heder-contacs-mail:focus {
+    color: #2196F3
+}
+
+/*----------шапка--------------*/
+.advertising {
+    background: #2F303A;
+}
+
+.advertising-name {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+
+
+.color-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+
+.color-btn:hover {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+/*-------особенности--------------*/
+.chip-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--heder-color);
+}
+
+.chip-par {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*---------чем мы занимаемся-------*/
+.work-name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--heder-color);
+}
+
+/*-----------наша команда-----------*/
+.teams {
+    background: #F5F4FA;
+}
+
+.teams-list {
+    background: #FFFFFF;
+}
+
+.teams-list .our-teams {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--heder-color);
+}
+
+.teams-team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.33;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--heder-color);
+}
+
+.teams-team-profesion {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.33;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*-----------------подвал-----------*/
+.footer {
+    background: #2F303A;
+}
+
+.studio1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.footer-mail,
+.footer-tel {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-addres-name {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+/*-----------портфолио кнопки------*/
+.line {
+    #ECECEC;
+}
+
+.link-example-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.link-example-btn:hover {
+    background: #2196F3;
+}
+
+.link-example-btn:focus {
+    background: #2196F3;
+}
+
+.examples-list {
+    background: #EEEEEE;
+}
+
+.visually {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.project-type {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.direction {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.86;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
