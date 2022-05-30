@@ -97,8 +97,8 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
     color: #FFFFFF;
+    background: #2196F3;
 }
 
 .color-btn:hover {
@@ -210,6 +210,13 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+
+}
+
+.footer-mail:hover,
+.footer-tel:hover,
+.footer-addres-name:hover {
+    color: #2196F3;
 }
 
 /*-----------портфолио кнопки------*/
