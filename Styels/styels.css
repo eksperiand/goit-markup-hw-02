@@ -1,5 +1,7 @@
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .link {
@@ -18,8 +20,43 @@ button {
     cursor: pointer;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 1px solid #ECECEC;
+}
+
+img {
+    display: block;
+}
+
 /*-----------верхняя линяя-------------*/
+
+
+.header .container {
+
+    display: flex;
+}
+
+.heder-list {
+    display: flex;
+    margin-left: 93px;
+
+
+}
+
 .heder-logo {
+    left: 215px;
+
+    position: absolute;
+    top: 24px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -27,6 +64,11 @@ button {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
+}
+
+.heder-item:not(:last-child) {
+    margin-right: 50px;
+    padding: 32px 0px;
 }
 
 .studio {
@@ -53,6 +95,11 @@ button {
     color: #2196F3;
 }
 
+.heder-contacs {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
 
 .heder-contacs-tel,
 .heder-contacs-mail {
@@ -74,12 +121,22 @@ button {
     color: #2196F3
 }
 
+.heder-contact-item {
+    margin-right: 50px;
+}
+
 /*----------шапка--------------*/
 .advertising {
     background: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
 }
 
 .advertising-name {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    max-width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -89,20 +146,20 @@ button {
     color: #FFFFFF
 }
 
-
-
 .color-btn {
+    min-width: 200;
+    height: 50;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
-    /* identical to box height, or 188% */
-
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     background: #2196F3;
+    margin: 0 auto;
+    display: block;
 }
 
 .color-btn:hover {
@@ -112,6 +169,15 @@ button {
 }
 
 /*-------особенности--------------*/
+.chip {
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
+.chip-list {
+    display: flex;
+}
+
 .chip-name {
     font-weight: 700;
     font-size: 14px;
@@ -119,6 +185,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--heder-color);
+    margin-bottom: 10px;
 }
 
 .chip-par {
@@ -127,9 +194,27 @@ button {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
+    max-width: 270px;
 }
 
 /*---------чем мы занимаемся-------*/
+.work {
+    padding-bottom: 95px;
+}
+
+.work-name3 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.work-list {
+    display: flex;
+}
+
+.work-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 .work-name {
     font-weight: 700;
     font-size: 36px;
@@ -140,11 +225,24 @@ button {
 }
 
 /*-----------наша команда-----------*/
-.teams {
-    background: #F5F4FA;
+.our-teams {
+    text-align: center;
+    margin-bottom: 50px;
 }
 
+.teams {
+    background: #F5F4FA;
+    padding-bottom: 0px;
+}
+
+.teams-item {
+    margin-right: 30px;
+}
+
+
+
 .teams-list {
+    display: flex;
     background: #FFFFFF;
 }
 
@@ -175,9 +273,18 @@ button {
     color: #757575;
 }
 
+.teams .teams-item {
+    border-width: 0px 2px 2px 2px;
+    border-style: solid;
+    border-radius: 0px 0px 5px 5px;
+    border-color: #ECECEC;
+}
+
 /*-----------------подвал-----------*/
 .footer {
     background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .studio1 {
@@ -189,6 +296,8 @@ button {
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+
+
 
 .footer-link {
     font-family: 'Raleway';
@@ -224,6 +333,21 @@ button {
 }
 
 /*-----------портфолио кнопки------*/
+.example {
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
+.examples-list-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.examples-item-btn:not(:last-child) {
+    margin-right: 8px;
+}
+
 
 .link-example-btn {
     font-weight: 500;
@@ -232,6 +356,7 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+
 }
 
 .link-example-btn:hover {
@@ -250,7 +375,27 @@ button {
 }
 
 .examples-list {
+    display: flex;
+    flex-wrap: wrap;
     background: #FFF;
+    margin: -15px;
+}
+
+.examples-item {
+
+    width: calc(100% / 3 - 30px);
+    margin: 15px;
+}
+
+.project-type {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.direction {
+    text-align: center;
+    margin-top: 10px;
 }
 
 .visually {
@@ -264,6 +409,13 @@ button {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+}
+
+.container .examples-item {
+    border-width: 0px 2px 2px 2px;
+    border-style: solid;
+    border-radius: 0px 0px 5px 5px;
+    border-color: #ECECEC;
 }
 
 .project-type {
